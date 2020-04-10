@@ -23,7 +23,7 @@ define('APP_PATH','./Application/');
 define('WORKING_PATH',str_replace('\\','/',__DIR__));
 // 定义上传根目录
 define('UPLOAD_ROOT_PATH','/Uploads/');
-// 
+
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';
 
