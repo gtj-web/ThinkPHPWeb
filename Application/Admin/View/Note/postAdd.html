@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>写文章</title>
+  <link rel="stylesheet" href="__PUBLIC__/vendors/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="__PUBLIC__/vendors/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="__PUBLIC__/vendors/nprogress/nprogress.css">
+  <link rel="stylesheet" href="__ADMIN__/css/admin.css">
+  <link rel="stylesheet" href="__PUBLIC__/vendors/editor.md-master/css/editormd.css">
+  <script src="__PUBLIC__/vendors/nprogress/nprogress.js"></script>
+</head>
+<body>
+  <script>NProgress.start()</script>
+
+  <div class="main">
+    <?php include './public/navbar.php' ?>
+    <include file="Public/navbar" />
+    <div class="container-fluid">
+      <div class="page-title">
+        <h1>写文章</h1>
+      </div>
+      <!-- 有错误信息时展示 -->
+      <?php if(isset($error)): ?>
+      <div class="alert <?php echo $error==='提交成功' ? 'alert-success' : 'alert-danger' ?>">
+        <strong><?php echo $error ?></strong>
+      </div>
+      <?php endif; ?>
+      <!-- 不写action提交给自己 -->
+      <form class="row" action="" method="post">
+        <div class="col-md-12">
+          <div class="form-group">
+            <label for="title">标题</label>
+            <input id="title" class="form-control input-lg" name="title" type="text" placeholder="文章标题">
+          </div>
+          <div class="form-group">
+            <label for="content">内容</label>
+            <div id="test-editor" name="content">
+                <textarea style="display:none;" name="content"></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <button class="btn btn-warning btn-lg btn-block">提交</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <?php include './public/sidebar.php' ?>
+  <include file='Public/sidebar' avatar="{$avatar}" nickname="{$nickname}"/>
+  
+
+  <script src="__PUBLIC__/vendors/jquery/jquery.js"></script>
+  <script src="__PUBLIC__/vendors/bootstrap/js/bootstrap.js"></script>
+  <script src="__PUBLIC__/vendors/editor.md-master/lib/marked.min.js"></script>
+  <script src="__PUBLIC__/vendors/editor.md-master/lib/prettify.min.js"></script>
+  <script src="__PUBLIC__/vendors/editor.md-master/lib/raphael.min.js"></script>
+  <script src="__PUBLIC__/vendors/editor.md-master/lib/underscore.min.js"></script>
+  <script src="__PUBLIC__/vendors/editor.md-master/lib/sequence-diagram.min.js"></script>
+  <script src="__PUBLIC__/vendors/editor.md-master/lib/flowchart.min.js"></script>
+  <script src="__PUBLIC__/vendors/editor.md-master/lib/jquery.flowchart.min.js"></script>
+  <script src="__PUBLIC__/vendors/editor.md-master/editormd.js"></script>
+  <script>
+     $(function() {
+          var editor = editormd("test-editor", {
+              // width  : "100%",
+              // height : "100%",
+              path   : "__PUBLIC__/vendors/editor.md-master/lib/",
+              width: "90%",
+              height: 540,
+              theme : "dark", //主题
+              // path: "editor.md-master/lib/" // 这里我的html文件和editor.md-master文件位置如下图
+              saveHTMLToTextarea : true//这个配置，方便post提交html源码表单，保存 HTML 到 Textarea它关乎后端是否可以获取到值
+          });
+
+          // 提交表单
+          $('.btn').on('click',function(){
+            $('form').submit();
+          })
+      });
+
+  </script>
+  <script>NProgress.done()</script>
+</body>
+</html>

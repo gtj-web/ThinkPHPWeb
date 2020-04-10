@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>所有音乐</title>
+  <link rel="stylesheet" href="__PUBLIC__/vendors/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="__PUBLIC__/vendors/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="__PUBLIC__/vendors/nprogress/nprogress.css">
+  <link rel="stylesheet" href="__ADMIN__/css/admin.css">
+  <link rel="stylesheet" href="__ADMIN__/css/base.css">
+  <script src="__PUBLIC__/vendors/nprogress/nprogress.js"></script>
+</head>
+<body>
+  <script>NProgress.start()</script>
+
+  <div class="main">
+    <?php include './public/navbar.php' ?>
+    <include file="Public/navbar" />
+    <div class="container-fluid">
+      <div class="page-title">
+        <h1>所有音乐</h1>
+        <a href="__MODULE__/Music/musicAdd" class="btn btn-primary btn-xs">添加音乐</a>
+      </div>
+      <!-- 有错误信息时展示 -->
+      <!-- <div class="alert alert-danger">
+        <strong>错误！</strong>发生XXX错误
+      </div> -->
+      <div class="page-action">
+        <!-- show when multiple checked -->
+        <a class="btn btn-danger btn-sm" href="javascript:;" style="display: none">批量删除</a>
+        <!-- <form class="form-inline">
+          <select name="" class="form-control input-sm">
+            <option value="">所有分类</option>
+            <option value="">未分类</option>
+          </select>
+          <select name="" class="form-control input-sm">
+            <option value="">所有状态</option>
+            <option value="">草稿</option>
+            <option value="">已发布</option>
+          </select>
+          <button class="btn btn-default btn-sm">筛选</button>
+        </form> -->
+        <ul class="pagination pull-right">
+          <div class="pagin-list">
+            {$show}
+          </div>
+          
+        </ul>
+      </div>
+      <table class="table table-striped table-bordered table-hover">
+        <thead>
+          <tr>
+            <th class="text-center" width="40"><input type="checkbox"></th>
+            <th>编号</th>
+            <th class="text-center">歌曲名</th>
+            <th class="text-center">歌手名</th>
+            <th class="text-center">状态</th>
+            <th class="text-center" width="100">操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <volist name="data" id="item">
+          <tr>
+            <td class="text-center"><input type="checkbox"></td>
+            <td>{$item.id}</td>
+            <td class="text-center">{$item.song}</td>
+            <td class="text-center">{$item.singer}</td>
+            <if condition="$item.state == 0">
+              <td class="text-center" style="color: green">展示</td>
+              <td class="text-center">
+                <a href="__CONTROLLER__/musicEdit/id/{$item.id}" class="btn btn-info btn-xs">编辑</a>
+                <a href="delete/id/{$item.id}/flag/0" class="btn btn-danger btn-xs">删除</a>
+            </td>
+            <else/>
+              <td class="text-center" style="color: red">隐藏</td>
+              <td class="text-center">
+                <a href="delete/id/{$item.id}/flag/1" class="btn btn-success btn-xs">展示</a>
+            </td>
+            </if>
+            
+          </tr>
+          </volist>
+          
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <?php include './public/sidebar.php' ?>
+  <include file='Public/sidebar' avatar="{$avatar}" nickname="{$nickname}"/>
+
+  <script src="__PUBLIC__/vendors/jquery/jquery.js"></script>
+  <script src="__PUBLIC__/vendors/bootstrap/js/bootstrap.js"></script>
+  <script>NProgress.done()</script>
+</body>
+</html>

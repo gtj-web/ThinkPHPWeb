@@ -1,0 +1,189 @@
+[ 2020-04-06T14:47:43+08:00 ] 127.0.0.1 /index.php/vendors/bootstrap/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+ERR: 无法加载模块:Vendors
+
+[ 2020-04-06T14:47:43+08:00 ] 127.0.0.1 /index.php/vendors/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+ERR: 无法加载模块:Vendors
+
+[ 2020-04-06T14:47:43+08:00 ] 127.0.0.1 /index.php/vendors/nprogress/nprogress.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+ERR: 无法加载模块:Vendors
+
+[ 2020-04-06T14:47:43+08:00 ] 127.0.0.1 /index.php/vendors/nprogress/nprogress.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+ERR: 无法加载模块:Vendors
+
+[ 2020-04-06T14:47:43+08:00 ] 127.0.0.1 /index.php/vendors/jquery/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+ERR: 无法加载模块:Vendors
+
+[ 2020-04-06T14:47:43+08:00 ] 127.0.0.1 /index.php/vendors/bootstrap/js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+ERR: 无法加载模块:Vendors
+
+[ 2020-04-06T14:47:43+08:00 ] 127.0.0.1 /index.php/vendors/echarts/echarts.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+ERR: 无法加载模块:Vendors
+
+[ 2020-04-06T15:36:33+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+ERR: 无法加载模块:Favicon
+
+[ 2020-04-06T15:45:55+08:00 ] 127.0.0.1 /vendors/bootstrap/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+ERR: 无法加载模块:Vendors
+
+[ 2020-04-06T15:45:55+08:00 ] 127.0.0.1 /vendors/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+ERR: 无法加载模块:Vendors
+
+[ 2020-04-06T15:45:55+08:00 ] 127.0.0.1 /vendors/nprogress/nprogress.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+ERR: 无法加载模块:Vendors
+
+[ 2020-04-06T15:45:55+08:00 ] 127.0.0.1 /index.php/css/admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002427s ]
+ERR: 无法加载模块:Css
+
+[ 2020-04-06T15:45:55+08:00 ] 127.0.0.1 /vendors/nprogress/nprogress.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+ERR: 无法加载模块:Vendors
+
+[ 2020-04-06T15:45:55+08:00 ] 127.0.0.1 /vendors/bootstrap/js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+ERR: 无法加载模块:Vendors
+
+[ 2020-04-06T15:45:55+08:00 ] 127.0.0.1 /vendors/jquery/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+ERR: 无法加载模块:Vendors
+
+[ 2020-04-06T15:45:55+08:00 ] 127.0.0.1 /vendors/echarts/echarts.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+ERR: 无法加载模块:Vendors
+
+[ 2020-04-06T15:45:55+08:00 ] 127.0.0.1 /vendors/bootstrap/js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载模块:Vendors
+
+[ 2020-04-06T15:45:55+08:00 ] 127.0.0.1 /vendors/echarts/echarts.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+ERR: 无法加载模块:Vendors
+
+[ 2020-04-06T16:05:58+08:00 ] 127.0.0.1 /src/backstage/api/getavatar.php?name=gtj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+ERR: 无法加载模块:Src
+
+[ 2020-04-06T16:05:59+08:00 ] 127.0.0.1 /src/backstage/api/getavatar.php?name=gtj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+ERR: 无法加载模块:Src
+
+[ 2020-04-06T16:09:46+08:00 ] 127.0.0.1 /src/backstage/api/getavatar.php?name=asdaasda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载模块:Src
+
+[ 2020-04-06T16:15:24+08:00 ] 127.0.0.1 /src/backstage/api/getavatar.php?name=asdaasda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+ERR: 无法加载模块:Src
+
+[ 2020-04-06T16:24:47+08:00 ] 127.0.0.1 /src/backstage/api/getavatar.php?name=asdaasda
+ERR: 无法加载模块:Src
+
+[ 2020-04-06T16:27:13+08:00 ] 127.0.0.1 /index.php/Login
+ERR: 无法加载模块:Login
+
+[ 2020-04-06T16:27:19+08:00 ] 127.0.0.1 /index.php/Login/login
+ERR: 无法加载模块:Login
+
+[ 2020-04-06T16:30:37+08:00 ] 127.0.0.1 /src/backstage/api/getavatar.php?name=gtj
+ERR: 无法加载模块:Src
+
+[ 2020-04-06T16:32:02+08:00 ] 127.0.0.1 /index.php/Login/login
+ERR: 无法加载模块:Login
+
+[ 2020-04-06T16:32:03+08:00 ] 127.0.0.1 /index.php/Login
+ERR: 无法加载模块:Login
+
+[ 2020-04-06T16:33:15+08:00 ] 127.0.0.1 /src/backstage/api/getavatar.php?name=gtj
+ERR: 无法加载模块:Src
+
+[ 2020-04-06T16:33:44+08:00 ] 127.0.0.1 /src/backstage/api/getavatar.php?name=gtj
+ERR: 无法加载模块:Src
+
+[ 2020-04-06T16:33:54+08:00 ] 127.0.0.1 /src/backstage/api/getavatar.php?name=gtj
+ERR: 无法加载模块:Src
+
+[ 2020-04-06T16:34:47+08:00 ] 127.0.0.1 /src/backstage/api/getavatar.php?name=gtj
+ERR: 无法加载模块:Src
+
+[ 2020-04-06T16:34:49+08:00 ] 127.0.0.1 /src/backstage/api/getavatar.php?name=gtj
+ERR: 无法加载模块:Src
+
+[ 2020-04-06T16:48:58+08:00 ] 127.0.0.1 /getImg
+ERR: 无法加载模块:GetImg
+
+[ 2020-04-06T17:01:46+08:00 ] 127.0.0.1 /uploads/img/avatar_4.jpg
+ERR: 无法加载模块:Uploads
+
+[ 2020-04-06T17:03:06+08:00 ] 127.0.0.1 /uploads/img/avatar_4.jpg
+ERR: 无法加载模块:Uploads
+
+[ 2020-04-06T17:03:09+08:00 ] 127.0.0.1 /uploads/img/avatar_4.jpg
+ERR: 无法加载模块:Uploads
+
+[ 2020-04-06T17:49:06+08:00 ] 127.0.0.1 /src/vendors/editor.md-master/lib/codemirror/addon/dialog/dialog.css
+ERR: 无法加载模块:Src
+
+[ 2020-04-06T17:49:06+08:00 ] 127.0.0.1 /src/vendors/editor.md-master/lib/codemirror/addon/search/matchesonscrollbar.css
+ERR: 无法加载模块:Src
+
+[ 2020-04-06T17:49:06+08:00 ] 127.0.0.1 /src/vendors/editor.md-master/lib/codemirror/codemirror.min.css
+ERR: 无法加载模块:Src
+
+[ 2020-04-06T17:49:06+08:00 ] 127.0.0.1 /src/vendors/editor.md-master/lib/codemirror/codemirror.min.js
+ERR: 无法加载模块:Src
+
